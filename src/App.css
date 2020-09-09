@@ -1,12 +1,96 @@
 .App {
   text-align: center;
 }
-
+.align-user{
+  display:block;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  text-align: center;
+  width:max-content;
+  padding:20px;
+}
+.align-country{
+  padding:11px;
+}
+.align-user{
+  padding:11px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.activityTime{
+  margin-top: 4px;
+  height: 122px;
+  width: 2px;
+  background-color: cyan;
+  margin-left: 35px;
+}
+.t1{
+  position: absolute;
+  padding-left: 33px;
+  display: flex;
+}
+.t2{
+  background-color: cyan;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+}
+.t3{
+  position: absolute;
+  /* left: 119%; */
+  top: -180%;
+  margin-left: 12px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #8E63E6;
+  width:max-content
+}
+.t4{
+  position: absolute;
+  padding-left: 33px;
+  display: flex;
+}
+.t5{
+  background-color: cyan;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+}
+.t6{
+  margin-left: 6px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  color: #8E63E6;
+  width: max-content;
+}
+.t7{
+  margin-top: -89px;
+  margin-left: 25%;
+  /* display: flex;
+  display: grid; */
+}
+.t8{
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 20px;
+  color: #282F3F;
+}
+.t9{
+  width: 50%;
+    box-shadow: 0 2px 3px #ccc;
+    overflow: auto;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
